@@ -44,8 +44,6 @@ public class Main {
                     position[0] -= distance;
                     break;
             }
-//            System.out.println(Arrays.toString(position));
-//            System.out.println(ori);
         }
 
         System.out.println("I end up at position " + Arrays.toString(position) + " relative to my starting point, facing " + ori + ".");
